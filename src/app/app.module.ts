@@ -11,13 +11,22 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { MenuComponent } from './components/menu/menu.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    AboutusComponent,
+    ContactComponent,
+    MenuComponent
+
   ],
   imports: [
     BrowserModule,
@@ -27,8 +36,10 @@ import { ExamplesModule } from './examples/examples.module';
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

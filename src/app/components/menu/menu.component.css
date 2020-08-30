@@ -1,0 +1,70 @@
+.tabs-nav {
+    padding-left: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    max-width: 1140px;
+    margin-bottom: 2rem;
+}
+.tabs-nav>li {
+    display: inline-block;
+}
+.tabs-nav .btn {
+    margin-top: 0;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+.btn-tabs {
+    border-width: 8px;
+    font-size: 0.75rem;
+    border-style: solid;
+    border-color: white;
+    border-style: solid;
+    border-image-slice: 247 247 247 247;
+    color: #000 !important;
+    border-image-width: 100px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url(https://images.getbento.com/accounts/3c70ede…/media/images/6481BlackBorder.png);
+}
+.tabs-panel--active {
+    display: block;
+}
+.menus-template .tabs .container-sm {
+    max-width: 650px;
+    border-style: solid;
+    border-width: 32px;
+    border-image: url(https://images.getbento.com/accounts/3c70ede…/media/images/3544Menuborder.png?w=1800&fit=max&auto=compress,format&h=1800) 200 repeat;
+}
+.menu-section {
+    margin-bottom: 2.5rem;
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.tabs-nav {
+    padding-left: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    max-width: 1140px;
+    margin-bottom: 2rem;
+}
+
+.container-sm {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    max-width: 640px;
+}
+.container-sm::after {
+    content: "";
+    display: table;
+    clear: both;
+}

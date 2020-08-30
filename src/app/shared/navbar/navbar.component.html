@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href=""><img src="../../../../assets/img/logo-cibus.png" height="80"
-                                                 width="235"/></a>
+
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -16,20 +15,23 @@
                 </li>
                 <li class="nav-item">
                     <div  id="menugenre" class="d-inline-block dropdown">
-                        <a class="nav-link" id="dropdownBasic1" >ABOUT US</a>
+                        <a class="nav-link" id="dropdownBasic1" routerLink="/aboutus">ABOUT US</a>
 
                     </div>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" routerLink="thebest">MENU</a>
+                    <a class="nav-link" routerLink="menu">MENU</a>
                 </li>
+                <li> <a class="navbar-brand" href=""><img src="../../../../assets/img/logo-cibus.png" height="80"
+                                                          width="235"/></a></li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
                     <a class="nav-link" routerLink="latest">BLOG</a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" routerLink="coomingsoon">RESERVATION</a>
+                    <a class="nav-link" routerLink="contact">RESERVATION</a>
                 </li>
-
+                <li style="margin-top: 3%;" _ngcontent-qol-c166=""><a _ngcontent-qol-c166="" href="#" class="facebook1"><i _ngcontent-qol-c166="" class="fa fa-facebook"></i></a></li>
+                <li style="margin-top: 3%;margin-left: 2px;" _ngcontent-qol-c166=""><a _ngcontent-qol-c166="" href="#" class="instagram1"><i _ngcontent-qol-c166="" class="fa fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>

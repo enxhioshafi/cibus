@@ -1,16 +1,157 @@
+
 <footer class="footer">
+    <div class="grure"></div>
     <div class="container">
         <div class="row">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="https://www.creative-tim.com">Creative Tim</a></li>
-                    <li><a href="http://blog.creative-tim.com">Blog</a></li>
-                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+            <div class="col-sm-3"><h4 style="color: #d47a7f;
+    margin-bottom: 17px;">Payment method</h4>
+                <img src="../../../assets/img/2ikona-cash-ne-dorezim.png" style="  margin-top: 9px;
+    width: 78%;">
+                <ul class="list-inline2" style="width: 100%;margin-top: 5px;display: block;">
+                    <li style=" padding-right: 2px;
+    padding-left: 2px;
+    float: left;
+    margin-left: -25%;"><img class="img-responsive" src="../../../assets/img/card-1.png" style="border-radius: 6px;" alt="Paypal"></li>
+                    <li style="padding-right: 2px; padding-left: 2px;float: left;"><img class="img-responsive" src="../../../assets/img/card-2.png" style="border-radius: 6px;" alt="Mastro"></li>
+                    <li style="padding-right: 2px; padding-left: 2px;float: left;"><img class="img-responsive" src="../../../assets/img/card-3.png" style="border-radius: 6px;" alt="Master"></li>
+                    <li style="padding-right: 2px; padding-left: 2px;float: left;"><img class="img-responsive" src="../../../assets/img/card-4.png" style="border-radius: 6px;" alt="Visa"></li>
                 </ul>
-            </nav>
-            <div class="credits ml-auto">
-                <span class="copyright">
-                    © {{test | date: 'yyyy'}}, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            </div>                                                                                                                                                                                    <div class="col-sm-6"><h4 style="text-align: center;color: #d47a7f;
+    margin-bottom: 17px;">Newsletter</h4>
+            <div class="newsletter clearfix" id="newsletter40064444"><p style="color: #d47a7f;
+    margin-bottom: 17px;">Get all the latest information on Events, Sales and Offers. Sign up for newsletter today.</p><div class="inputs"><input type="text" class="email" placeholder="Email address here"><a class="button subscribe">Sign in</a></div></div></div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    function Unsubscribe() {
+                        $.post('https://www.azaelectronics.com/index.php?route=extension/module/newsletter/unsubscribe',
+                            {
+                                email: $('#newsletter40064444 .email').val()
+                            }, function (e) {
+                                $('#newsletter40064444 .email').val('');
+                                alert(e.message);
+                            }
+                            , 'json');
+                    }
+
+                    function Subscribe() {
+                        $.post('https://www.azaelectronics.com/index.php?route=extension/module/newsletter/subscribe',
+                            {
+                                email: $('#newsletter40064444 .email').val()
+                            }, function (e) {
+                                if(e.error === 1) {
+                                    var r = confirm(e.message);
+                                    if (r == true) {
+                                        $.post('https://www.azaelectronics.com/index.php?route=extension/module/newsletter/unsubscribe', {
+                                            email: $('#newsletter40064444 .email').val()
+                                        }, function (e) {
+                                            $('#newsletter40064444 .email').val('');
+                                            alert(e.message);
+                                        }, 'json');
+                                    }
+                                } else {
+                                    $('#newsletter40064444 .email').val('');
+                                    alert(e.message);
+                                }
+                            }
+                            , 'json');
+                    }
+
+                    $('#newsletter40064444 .subscribe').click(Subscribe);
+                    $('#newsletter40064444 .unsubscribe').click(Unsubscribe);
+                    $('#newsletter40064444 .email').keypress(function (e) {
+                        if (e.which == 13) {
+                            Subscribe();
+                        }
+                    });
+                });
+            </script>
+            <div class="col-sm-3"><h4 style="color: #d47a7f;
+    margin-bottom: 17px;">Follow us</h4>
+            <div class="techone-socials" style="padding-top: 0px;">
+                <div class="socials text-left"><div>
+                    <a style="background-color: #3B5998 !important;" class="social" target="_blank" href="#" title="Facebook"><i class="fa fa-facebook" style="color: white;"></i></a>
+
+                    <a style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);" class="social" target="_blank" href="#" title="Instagram"><i style="color: #white;" class="fa fa-instagram"></i></a>
+
+                    <a style="background-color: #007bb7 !important;" class="social" target="_blank" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></div><div style="float: left;">
+
+                    <a style="background-color: red;" class="social" target="_blank" href="#" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+
+                    <a style="background-color: #42c0fb;" class="social" target="_blank" href="#" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+                    <a style="background-color: #ff4646;" class="social" target="_blank" title="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div></div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div _ngcontent-kls-c170="" class="col-sm-6 col-lg-3">
+            <h4 class="header1">
+                <img src="../../../assets/img/logo-cibus.png" height="100" width="200" style="margin-top: -13%;">
+               	</h4>
+            <div class="customtitle1" style="color: black">
+                <span style=" display: block;"><i class="fa fa-home" style="color: black;font-size:18px;"></i><a class="telfooter"> Tirane - Albania</a></span>
+                <span style=" display: block;"><i class="fa fa-envelope" style="color: black;font-size:18px"></i><a class="telfooter">info@cibos.com</a></span>
+                <span style=" display: block;"><i class="fa fa-phone" style="color: black;font-size:18px"></i><a class="telfooter">+3556911111111</a></span>
+             	</div>
+        </div>
+        <div _ngcontent-kls-c170="" class="col-sm-6 col-lg-3"><h4 class="header1">RESTAURANT  </h4><br>
+            <div class="customtitle1"style="color: black">
+                <ul>
+                   <li>Menu</li>
+                    <li> Recipe</li>
+                    <li>Blog</li>
+                    <li>Reservation</li>
+
+                </ul></div>
+        </div>
+        <div _ngcontent-kls-c170="" class="col-sm-6 col-lg-3">
+            <h4 class="header1">
+                <span>INFORMATION</span></h4><br>
+            <div class="customtitle1"style="color: black">
+                <ul>
+                    <li>Contact us</li>
+                    <li>Delivery Information</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+
+
+                </ul></div>
+        </div>
+        <div _ngcontent-kls-c170="" class="col-sm-6 col-lg-3">
+            <h4 class="header1">
+                <span>HOURS</span></h4><br>
+            <div class="customtitle1"style="color: black">
+                <div class="paragraph" >
+                    <a color="#da8044"><strong>Monday — Sunday</strong>
+                    </a>
+                    <br><a color="#2a2a2a">8am — 12pm</a></div>
+                <div class="footer-social-box">
+                    <div class="footer-social-inner">
+                        <h4 class="hadding-title"><span>FOLLOW US</span></h4>
+
+                        <div class="footer-social-icon">
+                            <ul>
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="google" href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="skype" href="#"><i class="fa fa-skype"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div></div>
+        </div></div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="credits ml-auto" style=" margin: auto;">
+                <span class="copyright" >
+                    © {{test | date: 'yyyy'}}, made with <i class="fa fa-heart heart"></i> by enxhi oshafi
                 </span>
             </div>
         </div>
