@@ -1,2 +1,30 @@
 body{   background-image: url(../../../assets/img/historyy.jpg);}
 
+.about-bg {
+    position: relative;
+    z-index: 1;
+    background-color: #ddd;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.about-bg img {
+    border-radius: 10px;
+}
+.about-bg::after {
+    position: absolute;
+    content: "";
+    right: -30px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    border: 15px solid #c12a34;
+    z-index: -1;
+    border-radius: 5px;
+}
+.about-bg img {
+    height: 420px;
+    width: 100%;
+}
+#video-karusel {max-width: 60%;
+margin-bottom: 5%;}

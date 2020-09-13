@@ -15,6 +15,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { RecipesComponent } from './components/recipes/recipes.component';
 
 
 
@@ -25,7 +26,8 @@ import { MenuComponent } from './components/menu/menu.component';
     FooterComponent,
     AboutusComponent,
     ContactComponent,
-    MenuComponent
+    MenuComponent,
+    RecipesComponent
 
   ],
   imports: [

@@ -500,3 +500,27 @@
 .navbar-hidden{
     display: none;
 }
+@media screen and (max-width: 788px) {
+    .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #c63b45!important;
+    border: 1px solid #bd161600;
+    border-radius: .25rem;
+}
+    #vid {
+        width: 883px!important;
+    }
+#video_overlays {display: none;}
+.salt {
+        display: none;
+   }
+    .miell {
+        width: 204px!important;
+        height: 110px!important;}}
+
+#vid {
+    object-fit: cover;
+}
+

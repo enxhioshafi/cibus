@@ -2097,7 +2097,7 @@ text-align: center;}
     margin-top: 3%;
     text-align: center;
 }
-#slideaboutt .carousel-item img {height: 514px!important;}
+#slideaboutt .carousel-item img {height: 347px;}
 .footer .newsletter {
     border-bottom: 1px solid #4c4c4c;
     padding: 0px 0px 30px 0px;
@@ -2177,19 +2177,17 @@ margin-left: 59px;}
     z-index: 9;
     margin: auto;
     color: white;
-    background-color: #18191b00;
     position: relative;}
 #video-karuselv2 { height: 50%;
     z-index: 9;
     margin: auto;
-    border: 4px solid #d6d6d6;
-    background-color: white;
+
     position: relative;}
-#video-karuselv3 { height: 50%;
+#video-karuselv3 {    height: 87%;
     z-index: 9;
-    margin: auto;
-    border: 4px solid #d6d6d6;
-    background-color: white;
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;}
 .borzilok {
 background-image: url(./../../assets/img/borzilok.png);
@@ -2218,6 +2216,7 @@ background-image: url(./../../assets/img/borzilok.png);
     background-size: cover;
     padding: 43px;
     margin-top: 3%;
+    margin-bottom: 5%;
 }
 .titleabout {font-family: Herr Von Muellerhoff;
     font-weight: 400;
@@ -2288,7 +2287,7 @@ background-image: url(./../../assets/img/borzilok.png);
     overflow: hidden;
 }
 
-#vid { position: absolute;
+#vid12 { position: absolute;
     top:-5px;
     left:-5px;
     height: 480px;
@@ -2373,13 +2372,14 @@ background-image: url(./../../assets/img/borzilok.png);
     height: 45%;
     background-position: 50% 50%;
     background-size: 100% 100%;
-    top: 13%;
+    top: 16%;
     background-repeat: no-repeat;
-    min-height: 79%;
+    min-height: 70%;
     z-index: 300000;
     bottom: 10px;
     margin: auto;
 }
+
 .ml-auto, .mx-auto {
     text-align: center!important;
     margin: auto!important;
@@ -2398,3 +2398,4 @@ border-radius: 50%;
     border-radius: 50%;
     color: #e0e0e0;
     border: 1px solid white; margin-left: 2px; }
+

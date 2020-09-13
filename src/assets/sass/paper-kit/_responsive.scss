@@ -355,6 +355,30 @@
             margin-bottom: 2em;
         }
     }
+    .menurecet {max-width: 320px!important;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;}
+    .foto {max-width: 100px!important; bottom: 86px!important;
+        left: 108px!important;}
+    .foto1 {max-width: 100px!important;}
+    .foto2 {max-width: 100px!important;bottom: 182px!important;
+        right: 35px!important;}
+    .foto3 {max-width: 100px!important;}
+    .service {display: none;}
+    .restant-content {padding-right: 0px!important;}
+   .restant-content .section-title {text-align: left!important;}
+    .menufirstt {
+        margin-top: 43%!important;
+        margin-bottom: -10%;
+    }
+    .menucibus {
+        width: 72%!important;}
+    .header-menu {
+        width: 50%!important;
+        margin-left: 78px !important;
+    }
+
 }
 @media screen and (max-width: 991px){
     .navbar-collapse {
@@ -393,7 +417,7 @@
                 color: $dark-gray !important;
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: $font-size-small;
+                font-size: 10px;
                 line-height: $line-height-general;
                 padding: 15px 0;
                 &:hover,
@@ -496,8 +520,50 @@
     //    @include transform-translate-x(0px);
        @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
        left: 0;
-       background-color: white;
+
     }
+    .italien {display: none;}
+    .garlic {
+        width: 59px!important;
+        height: 147px!important;}
+    .piper1 {display: none;}
+    .borzilok {
+        top: 51%!important;
+        right: -22px!important;}
+    .techone-socials {
+        padding-top: 11px;
+        margin-left: 0px;
+    }.techone-socials {
+         margin-left: 0px!important;
+     }
+    .paypali { margin-left: -10%!important;}
+    .garlic {
+        display: none;}
+    .page-header {
+        height: 484px;
+        max-width: 95%!important;
+    }
+
+    #carousel {margin-top:28%!important;}
+    #slideaboutt .carousel-item img {
+
+        height: 144px!important;
+    }
+    .img-circle {
+        max-width: 64%!important;
+    }
+    .name:before {display:none;}
+    .name:after {display:none;}
+    .ml-auto1:before {
+        display:none;
+    }
+    .about-bg img {
+        height: 200px!important;
+        width: 100%!important;
+    }
+    #video-karusel {max-width: 90%!important;
+        margin-bottom: 5%;}
+
 }
 
 @media screen and (min-width:767px){
@@ -531,6 +597,7 @@
 
         }
     }
+
 }
 
 @media screen and (min-width:991px){
@@ -552,6 +619,7 @@
             padding-right: 0px;
             padding-left: 40px;
             padding-top: 15px;
+            color: #0b1011!important;
             @include transform-translate-x(230px);
             @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
