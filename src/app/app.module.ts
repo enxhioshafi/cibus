@@ -16,6 +16,8 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
+import { MarginLightboxComponent } from './components/margin-lightbox/margin-lightbox.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -27,7 +29,8 @@ import { RecipesComponent } from './components/recipes/recipes.component';
     AboutusComponent,
     ContactComponent,
     MenuComponent,
-    RecipesComponent
+    RecipesComponent,
+    MarginLightboxComponent
 
   ],
   imports: [
@@ -38,7 +41,8 @@ import { RecipesComponent } from './components/recipes/recipes.component';
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -174,13 +174,14 @@
         .nav-item .nav-link:not(.btn){
             color: $white-color;
             border-color: $white-color;
+            font-size: 17px;
         }
         .active .nav-link
         .active .nav-link:hover,
         .active .nav-link:focus,
         .nav-item .nav-link:hover,
         .nav-item .nav-link:focus{
-            background-color: transparent;
+            background-color: black;
             color: $white-color;
             @include opacity(1);
         }

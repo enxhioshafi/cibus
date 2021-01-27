@@ -1,0 +1,326 @@
+<div class="row" style="margin-top:50px;margin-bottom:10px;">
+
+    <div class="col-md-4 mx-auto my-5 ">
+        <button mat-button>Click Here</button>
+        <a><img (click)="video1.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+
+    <div class="col-md-4 mx-auto my-5">
+        <button mat-button>Click Here</button>
+        <a><img (click)="video2.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+
+    <div class="col-md-4 mx-auto my-5">
+        <button mat-button>Click Here</button>
+        <a><img (click)="video3.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+
+</div>
+
+<div class="row" style="margin-top:5px;margin-bottom:80px;">
+    <div class="col-md-4 mx-auto my-5">
+        <button mat-button>Click Here</button>
+        <a><img (click)="video4.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+
+    <div class="col-md-4 mx-auto my-5">
+        <button mat-button>Click Here</button>
+        <a><img (click)="video5.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+
+    <div class="col-md-4 mx-auto my-5">
+
+        <a> <button mat-button>Click Here</button><img (click)="video6.show()" class="img-fluid z-depth-1"
+                src="../../../assets/img/tac.jpg"
+                alt="video"></a>
+    </div>
+</div>
+
+
+<div mdbModal #video1="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video1.hide()">Close
+                </button>
+
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+<div mdbModal #video2="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video2.hide()">Close
+                </button>
+
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+<div mdbModal #video3="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video3.hide()">Close
+                </button>
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
+</div>
+
+<div mdbModal #video4="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video4.hide()">Close
+                </button>
+            </div>
+            <!--/.Content-->
+
+        </div>
+
+    </div>
+</div>
+
+<div mdbModal #video5="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video5.hide()">Close
+                </button>
+            </div>
+            <!--/.Content-->
+
+        </div>
+
+    </div>
+</div>
+
+<div mdbModal #video6="mdbModal" class="modal fade" id="frameModalTop" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Body-->
+            <div class="modal-body mb-0 p-0">
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                <span class="mr-4">Spread the word!</span>
+                <div>
+                    <a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                    <!--Twitter-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                    <!--Google +-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="gplus" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="google-plus"></mdb-icon>
+                    </a>
+                    <!--Linkedin-->
+                    <a type="button" mdbBtn floating="true" size="sm" color="ins" class="waves-light" mdbWavesEffect>
+                        <mdb-icon fab icon="linkedin-in"></mdb-icon>
+                    </a>
+                </div>
+                <button type="button" mdbBtn color="primary" outline="true" rounded="true" class="ml-4 waves-light"
+                        mdbWavesEffect (click)="video6.hide()">Close
+                </button>
+
+            </div>
+
+        </div>
+        <!--/.Content-->
+
+    </div>
